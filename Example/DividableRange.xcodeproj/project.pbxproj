@@ -13,7 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9BCFA3A26DBD34C599840CDB /* Pods_DividableRange_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDB9381BA78749CC8776A12 /* Pods_DividableRange_Tests.framework */; };
+		A124179E1F9E4C7F00430F04 /* Pods_DividableRange_Example_DividableRange_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12417A01F9E4C7F00430F04 /* Pods_DividableRange_Example_DividableRange_Tests.framework */; };
+		A124179F1F9E4C7F00430F04 /* Pods_DividableRange_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A12417A11F9E4C7F00430F04 /* Pods_DividableRange_Example.framework */; };
 		F812B8A931F8F83F408E75AC /* Pods_DividableRange_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8268B5191AF20CBFF14ECC40 /* Pods_DividableRange_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1129D5C78155894D22B0ED69 /* Pods-DividableRange_Example-DividableRange_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DividableRange_Example-DividableRange_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DividableRange_Example-DividableRange_Tests/Pods-DividableRange_Example-DividableRange_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3A2313B0D85D3E3B32AAAA44 /* Pods_DividableRange_Example_DividableRange_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DividableRange_Example_DividableRange_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CD5A65E0005A57CCF6B7F5 /* Pods-DividableRange_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DividableRange_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DividableRange_Tests/Pods-DividableRange_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4D43CF580EE969030E856539 /* Pods-DividableRange_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DividableRange_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DividableRange_Example/Pods-DividableRange_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DividableRange_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DividableRange_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,13 +43,16 @@
 		607FACE51AFB9204008FA782 /* DividableRange_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DividableRange_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6BD0DE6B5B36856B63C7C75F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		70E24BA417555EC70304FDB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6BD0DE6B5B36856B63C7C75F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		70E24BA417555EC70304FDB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8268B5191AF20CBFF14ECC40 /* Pods_DividableRange_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DividableRange_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CDB9381BA78749CC8776A12 /* Pods_DividableRange_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DividableRange_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91740BFB9E259780DB3E6295 /* DividableRange.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DividableRange.podspec; path = ../DividableRange.podspec; sourceTree = "<group>"; };
+		91740BFB9E259780DB3E6295 /* DividableRange.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DividableRange.podspec; path = ../DividableRange.podspec; sourceTree = "<group>"; };
 		9F131A23ADCF51AF90643ACF /* Pods-DividableRange_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DividableRange_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DividableRange_Example/Pods-DividableRange_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A12417A01F9E4C7F00430F04 /* Pods_DividableRange_Example_DividableRange_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DividableRange_Example_DividableRange_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12417A11F9E4C7F00430F04 /* Pods_DividableRange_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DividableRange_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FA96192D101A247B1CCB13 /* Pods-DividableRange_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DividableRange_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DividableRange_Tests/Pods-DividableRange_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B1D774C30C276DB3D2F070 /* Pods-DividableRange_Example-DividableRange_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DividableRange_Example-DividableRange_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DividableRange_Example-DividableRange_Tests/Pods-DividableRange_Example-DividableRange_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BCFA3A26DBD34C599840CDB /* Pods_DividableRange_Tests.framework in Frameworks */,
+				A124179E1F9E4C7F00430F04 /* Pods_DividableRange_Example_DividableRange_Tests.framework in Frameworks */,
+				A124179F1F9E4C7F00430F04 /* Pods_DividableRange_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +149,11 @@
 		731A3435EA775E620ACAF129 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A12417A01F9E4C7F00430F04 /* Pods_DividableRange_Example_DividableRange_Tests.framework */,
+				A12417A11F9E4C7F00430F04 /* Pods_DividableRange_Example.framework */,
 				8268B5191AF20CBFF14ECC40 /* Pods_DividableRange_Example.framework */,
 				8CDB9381BA78749CC8776A12 /* Pods_DividableRange_Tests.framework */,
+				3A2313B0D85D3E3B32AAAA44 /* Pods_DividableRange_Example_DividableRange_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +165,8 @@
 				9F131A23ADCF51AF90643ACF /* Pods-DividableRange_Example.release.xcconfig */,
 				A9FA96192D101A247B1CCB13 /* Pods-DividableRange_Tests.debug.xcconfig */,
 				41CD5A65E0005A57CCF6B7F5 /* Pods-DividableRange_Tests.release.xcconfig */,
+				E0B1D774C30C276DB3D2F070 /* Pods-DividableRange_Example-DividableRange_Tests.debug.xcconfig */,
+				1129D5C78155894D22B0ED69 /* Pods-DividableRange_Example-DividableRange_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -290,7 +302,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DividableRange_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DividableRange_Example-DividableRange_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -309,7 +321,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DividableRange_Tests/Pods-DividableRange_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DividableRange_Example-DividableRange_Tests/Pods-DividableRange_Example-DividableRange_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DA56B559A54E7D9851A560A4 /* [CP] Embed Pods Frameworks */ = {
@@ -354,18 +366,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DividableRange_Tests/Pods-DividableRange_Tests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-DividableRange_Example-DividableRange_Tests/Pods-DividableRange_Example-DividableRange_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DividableRange/DividableRange.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DividableRange.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DividableRange_Tests/Pods-DividableRange_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DividableRange_Example-DividableRange_Tests/Pods-DividableRange_Example-DividableRange_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -549,7 +563,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9FA96192D101A247B1CCB13 /* Pods-DividableRange_Tests.debug.xcconfig */;
+			baseConfigurationReference = E0B1D774C30C276DB3D2F070 /* Pods-DividableRange_Example-DividableRange_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -570,7 +584,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41CD5A65E0005A57CCF6B7F5 /* Pods-DividableRange_Tests.release.xcconfig */;
+			baseConfigurationReference = 1129D5C78155894D22B0ED69 /* Pods-DividableRange_Example-DividableRange_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
