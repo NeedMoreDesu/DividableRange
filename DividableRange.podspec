@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DividableRange'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DividableRange.'
+  s.summary          = '-infinity to +infinity ranges, divided by points of change'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+-infinity to +infinity ranges, divided by points of change
+
+Creation is O(N*log(N))
+Lookup is O(log(N))
                        DESC
 
-  s.homepage         = 'https://github.com/Oleksii Horishnii/DividableRange'
+  s.homepage         = 'https://github.com/NeedMoreDesu/DividableRange.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Oleksii Horishnii' => 'oleksii.horishnii@gmail.com' }
